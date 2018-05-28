@@ -2,5 +2,6 @@
 *~
 *.gz
 *.pyc
+*.pkl
 __pycache__/
 .*
