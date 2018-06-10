@@ -3,7 +3,7 @@ import sys, os
 sys.path.append(os.pardir)
 import numpy as np
 import types
-import common.gradient_funcs as grad
+import util.gradient_funcs as grad
 
 def gradient_descent(f: types.FunctionType, init_x: np.array, lr:np.float=0.01, step_num:np.int=100) -> np.array:
     x = init_x

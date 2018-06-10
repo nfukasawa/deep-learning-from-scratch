@@ -2,9 +2,9 @@
 import sys, os
 sys.path.append(os.pardir)
 import numpy as np
-import common.activation_funcs as act
-import common.loss_funcs as loss
-import common.gradient_funcs as grad
+import util.activation_funcs as act
+import util.loss_funcs as loss
+import util.gradient_funcs as grad
 
 class simpleNet:
     def __init__(self):
